@@ -1,0 +1,44 @@
+.team {
+    background-color: #ffffff;
+}
+.container-team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.team-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+        &__column {
+            width: 240px;
+        }
+		&__column-avatar {
+            overflow: hidden;
+            margin-bottom: 15px;
+		} 
+        &__column-avatar-img {
+            height: 240px;
+            width: 100%;
+        }
+		&__column-name {
+            color: #2d3033;
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 5px;
+		}
+		&__column-position {
+            color: #e84545;
+            text-align: left;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+		}
+		&__column-description {
+            color: #afb1b5;
+            text-align: left;
+		}
+        // LINKS !!!!!!!!!!!!!!!
+        // LINKS !!!!!!!!!!!!!!!
+        // LINKS !!!!!!!!!!!!!!!
+        // LINKS !!!!!!!!!!!!!!!
+}

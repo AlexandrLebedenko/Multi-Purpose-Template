@@ -1,0 +1,32 @@
+.features {
+}
+.container-features {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.features-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 60px 80px;
+    justify-content: center;
+    justify-items: center;
+    padding: 0 30px;
+}
+.features-grid-item {
+		&__icon {
+            text-align: center;
+            margin: auto;
+            margin-bottom: 20px;
+		}
+		&__title {
+            color: #2d3033;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+		}
+		&__description {
+            color: #9a9ea2;
+            text-align: center;
+		}
+}

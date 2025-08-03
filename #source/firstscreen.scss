@@ -1,0 +1,21 @@
+.firstscreen {
+    background-image: url('../img/bg/city.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: rgba(30, 0, 81, 0.763);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+}
+.container-firstscreen {
+    position: relative;
+    z-index: 3;
+    padding-bottom: 120px;
+}

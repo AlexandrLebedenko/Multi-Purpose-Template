@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight:normal;}
+html {font-family: "Raleway";}
+.lock {overflow: hidden;} //body stop scrolling
+a{color: inherit; text-decoration: none;}
+.container {
+	padding: 0 15px;
+	margin: auto;
+    max-width: 1320px;
+
+}
+@import './firstscreen.scss';
+@import './header.scss';
+@import './main.scss';
+@import './features.scss';
+@import './works.scss';
+@import './team.scss';
+@import './slider.scss';
+@import './downloadscreen.scss';
+@import './contacts.scss';
+@import './footer.scss';

@@ -1,0 +1,30 @@
+.main {
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 36px;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        text-align: center;
+        color: #ffffff;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    &__button {
+        display: block;
+        margin: auto;
+        border: none;
+        text-transform: uppercase;
+        background-color: #e84545;
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 15px 40px;
+    }
+}
